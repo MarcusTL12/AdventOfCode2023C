@@ -19,7 +19,7 @@ else:
 
 print(f"Compiling in {cfg} mode")
 
-extra_flags = "-march=native"
+extra_flags = '"-march=native"'
 
 if not os.path.exists("build"):
     os.mkdir("build")
