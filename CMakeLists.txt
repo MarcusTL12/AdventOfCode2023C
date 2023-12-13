@@ -12,6 +12,7 @@ add_executable(
     aoc
     src/main.c
     src/day1.c
+    src/day2.c
 )
 
 target_link_libraries(aoc aoc_util pthread)
