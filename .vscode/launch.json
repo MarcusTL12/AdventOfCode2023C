@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Debug",
             "program": "${workspaceFolder}/build/aoc/aoc",
-            "args": ["3", "2", "ex1"],
+            "args": ["4", "2", "ex1"],
             "cwd": "${workspaceFolder}",
             "preLaunchTask": "build_debug"
         }
