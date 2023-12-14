@@ -109,4 +109,6 @@ void d4p2(char *input) {
     for (size_t i = 0; i < n_cards.len; i++, ptr++) ans += *ptr;
 
     printf("%u\n", ans);
+
+    vec_free(&n_cards);
 }
